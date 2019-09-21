@@ -18,9 +18,7 @@ const prepareStateFromWord = (given_word) => {
   }
 }
 
-
 class App extends React.Component {
-
   state = prepareStateFromWord(message);
 
   activationHandler = (c) => {
