@@ -34,15 +34,12 @@ class App extends React.Component {
       }
     }
   }
-
   reset = () => {
     this.setState({
       count_reset: this.state.count_reset + 1,
       completed: !this.state.completed
     })
-
   }
-
   render() {
     return (
       <div className="center">
@@ -51,7 +48,7 @@ class App extends React.Component {
           {
             Array.from(this.state.chars).map((item, index) => (
               <CharacterCard
-                value={item}
+                value={item} //test
                 key={index}
                 activationHandler={this.activationHandler}
                 attempt={this.state.attempt}
