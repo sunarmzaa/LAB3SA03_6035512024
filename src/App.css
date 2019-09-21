@@ -1,3 +1,9 @@
+body{
+  background-image:url(https://scontent.fbkk12-2.fna.fbcdn.net/v/t1.15752-9/51777422_956617604545651_4532902887856013312_n.jpg?_nc_cat=105&_nc_oc=AQmL5Dnqxz7hMsmqKiF7Qk6h4MAwgoeKAPD5xD00BDQlR6IEl55c3sktfJB-569F6jQ&_nc_ht=scontent.fbkk12-2.fna&oh=9c3ae766b77fc195e03e3d695d3b49ab&oe=5E033CAD);
+   font-family: 'Roboto', sans-serif;
+ }
+
+
 .card {
   display: inline-block;
   text-align: center;
@@ -8,10 +14,8 @@
   user-select: none;
   border-radius: 10px;
  }
- body{
-  background-image:url(https://scontent.fbkk12-2.fna.fbcdn.net/v/t1.15752-9/51777422_956617604545651_4532902887856013312_n.jpg?_nc_cat=105&_nc_oc=AQmL5Dnqxz7hMsmqKiF7Qk6h4MAwgoeKAPD5xD00BDQlR6IEl55c3sktfJB-569F6jQ&_nc_ht=scontent.fbkk12-2.fna&oh=9c3ae766b77fc195e03e3d695d3b49ab&oe=5E033CAD);
-   font-family: 'Roboto', sans-serif;
- }
+
+ 
  .activeCard {
   color: #393939;
   background: #AAAAAA ;
