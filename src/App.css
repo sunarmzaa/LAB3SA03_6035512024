@@ -1,0 +1,27 @@
+.card {
+  display: inline-block;
+  text-align: center;
+  width: 3em;
+  font-size: 2em;
+  box-shadow: 0 4px 8px 0 #939393;
+  margin: 1em;
+  user-select: none;
+  border-radius: 10px;
+ }
+ body{
+   background-color: whitesmoke;
+   font-family: 'Roboto', sans-serif;
+ }
+ .activeCard {
+  color: #393939;
+  background: #AAAAAA ;
+  border-radius: 10px;
+ }
+ .center{
+   display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ .text{
+   text-align: center;
+ }
