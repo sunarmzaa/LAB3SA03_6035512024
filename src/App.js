@@ -42,7 +42,7 @@ class App extends React.Component {
     return (
       <div className="center">
         <div>
-          <h1 className="text">6035512024</h1>
+          <h1 className="text">นายพีรพล กุลเมือง 6035512024</h1>
           {
             Array.from(this.state.chars).map((item, index) => (
               <CharacterCard
@@ -67,12 +67,16 @@ class App extends React.Component {
             }
             <div><h1 className="text">Attemp {this.state.attempt}</h1></div>
             {
-              this.state.completed && <h4>Complete</h4>
+              this.state.completed && <h2>Complete</h2>
             }
+
             {
+
               this.state.completed && <button onClick={this.reset}>Reset</button>
-            }
+            
+           }
           </div>
+
         </div>
       </div>
     )
