@@ -76,6 +76,7 @@ class App extends React.Component {
             
            }
           </div>
+          <div className="image"></div>
 
         </div>
       </div>
